@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view>
+<scroll-view scroll-x="true" class="container" scroll-left="{{scrollLeft}}" scroll-with-animation>
+<view class="block" id="block_{{ item }}" data-index="{{ item }}" bindtap="click" wx:for="{{ list }}">{{ item }}</view>
+</scroll-view>
+</view>
